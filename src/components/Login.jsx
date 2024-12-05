@@ -31,6 +31,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import "../style/Login.css"; 
+import { Link } from "react-router-dom";
 
 function Login() {
 
@@ -46,7 +47,6 @@ function Login() {
             placeholder="Enter Username"
             name="uname"
             style={{ width: "400px", height: "40px" }}
-           
           />
           <br />
           <br />
@@ -56,7 +56,6 @@ function Login() {
             placeholder="Enter Password"
             name="psw"
             style={{ width: "400px", height: "40px" }}
-      
           />
           <br />
           <br />
@@ -71,11 +70,11 @@ function Login() {
           ></i>
           <i className="bi bi-google" style={{ color: "white" }}></i>
         </div>
-        
-            <div className="regis">
-              <a href="/Register">Register</a>
-            </div>
-        </form>
+
+        <div className="regis">
+          <Link to="/Register">Register</Link>
+        </div>
+      </form>
     </div>
   );
 }
