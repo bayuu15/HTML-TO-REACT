@@ -1,12 +1,15 @@
 import React from 'react'
 import "../style/Register.css"; 
 import "bootstrap/dist/css/bootstrap.min.css"; 
+import { Link } from "react-router-dom";
+
 
 
 const Register = () => {
   return (
     <div className="container">
       <form action="" method="">
+        <h1 style={{ color: 'white'}}>REGISTER</h1>
         <div className="regis">
           <label htmlFor="uname">
             <b />
