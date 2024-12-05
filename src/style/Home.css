@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(347deg, rgba(45,45,45,1) 0%, rgba(147,147,147,1) 100%);
+
+}
+
+.navbar{
+    background: linear-gradient(347deg, rgba(42,165,155,1) 14%, rgba(16,63,59,1) 100%);
+    width: 100%;
+    height: max-content;
+    
+}
+
+
+#carouselExampleAutoplaying{
+    width: 1100px;
+    height: 400px;
+    margin-left: 0%;
+
+}
+
+.carousel-item{
+    max-width: 1100px;
+    height: 400px;
+}
+
+/* .top{
+    
+
+} */
+
+.img-thumbnail{
+    margin-left: 6.9%;
+}
+
+.rectangle{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    margin-top: 10px;
+    background: linear-gradient(347deg, rgba(42,165,155,1) 14%, rgba(16,63,59,1) 100%);
+}
+/* 
+.icon{
+    margin-top: 0
+} */
