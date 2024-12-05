@@ -1,11 +1,11 @@
 // import React from 'react'
 
-
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Home.css";
 import pp from "../assets/pp.jpg";
 import pp1 from "../assets/imageslide1.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -34,10 +34,10 @@ function Home() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
                   aria-current="page"
-                  href="/Register"
+                  to="/Register"
                   style={{
                     color: "white",
                     marginLeft: "40px",
@@ -45,12 +45,12 @@ function Home() {
                   }}
                 >
                   Register
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
-                  href="/Login"
+                  to="/Login"
                   style={{
                     color: "white",
                     marginLeft: "40px",
@@ -58,7 +58,7 @@ function Home() {
                   }}
                 >
                   Login
-                </a>
+                </Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
@@ -92,11 +92,17 @@ function Home() {
           </div>
         </div>
 
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" style={{ marginTop: 170 }}>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+          style={{ marginTop: 170 }}
+        >
           <span
             className="carousel-control-prev-icon"
             aria-hidden="true"
-            ></span>
+          ></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
